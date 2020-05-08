@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
+	root 'home#index'
+
+	get '/pages' => 'pages#index'
+	post '/pages' => 'pages#index'
+	get '/about' => 'home#about'
+	get '/arts' => 'arts#index'
+	# post '/' => 'home#index'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
