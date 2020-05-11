@@ -212,6 +212,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
+  minitest
   puma (~> 4.1)
   rails (~> 6.0.3)
   rest-client
