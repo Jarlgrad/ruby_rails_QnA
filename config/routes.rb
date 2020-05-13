@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 	get '/starwars' => 'pages#swccg'
 	post '/starwars' => 'pages#swccg'
 
+	get '/beers' => 'beers#index'
+	post '/beers' => 'beers#index'
+
 	get '/about' => 'home#about'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

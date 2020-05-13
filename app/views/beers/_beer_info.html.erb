@@ -1,0 +1,8 @@
+<p> Name: <%= beer["name"] %> </p>
+<p> Description: <%= beer["description"] %> </p>
+<span> Food Pairing: </span>
+<ul>
+	<%= beer["food_pairing"].each do |food| %>
+		<li><%= food %></li>
+	<% end %>
+</ul>

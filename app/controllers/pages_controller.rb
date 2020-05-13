@@ -1,4 +1,3 @@
-require "rest-client"
 require_relative "../services/scryfall_query_service"
 require_relative "../services/starwars_query_service"
 

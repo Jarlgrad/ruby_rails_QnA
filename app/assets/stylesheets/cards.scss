@@ -1,0 +1,20 @@
+.card_container {
+	
+	.card{
+		display: grid;
+		grid-template-areas: 
+			"image info";
+
+		.card_info {
+			grid-area: "info";
+		}
+		
+		.card_image {
+			grid-area: "image";
+
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
